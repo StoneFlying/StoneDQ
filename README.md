@@ -1,5 +1,5 @@
 # StoneDQ
-Go+Redis构建的简易延迟队列，包括主动拉取和回调两种模式
+Go+Redis构建的延迟队列，包括主动拉取和回调两种模式
 参考实现：[有赞延迟队列设计](https://tech.youzan.com/queuing_delay/)
 
          ____  _                   ____   ___  
