@@ -12,9 +12,9 @@ Go+Redis构建的简易延迟队列，包括主动拉取和回调两种模式
         Author: StoneFlying
         Email: stoneflying@yeah.net
         
-<center>polling</center>
+## polling模式下
 # 使用
-## /add  
+### /add  
 #### request
 ```
 {
@@ -35,7 +35,7 @@ Go+Redis构建的简易延迟队列，包括主动拉取和回调两种模式
 }
 ```
 
-## /pop
+### /pop
 #### request
 ```
 {
@@ -52,7 +52,7 @@ Go+Redis构建的简易延迟队列，包括主动拉取和回调两种模式
 }
 ```
 
-## /finish
+### /finish
 #### request
 ```
 {
@@ -69,7 +69,7 @@ Go+Redis构建的简易延迟队列，包括主动拉取和回调两种模式
 }
 ```
 
-## /delete
+### /delete
 #### request
 ```
 {
@@ -84,9 +84,10 @@ Go+Redis构建的简易延迟队列，包括主动拉取和回调两种模式
 	"id": "1",
 	"value": "删除成功"
 }
+```
 
-<center>callback</center>
-## /add  
+## callback模式下
+### /add  
 #### request
 ```
 {
